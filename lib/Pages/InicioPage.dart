@@ -37,6 +37,7 @@ class _InicioPageState extends State<InicioPage> {
           child: Column(
           children: [
             _prueba(),
+            _prueba1(),
             _centroNotificaciones(),
             _entrenamientos(),
             _otros(),
@@ -46,6 +47,9 @@ class _InicioPageState extends State<InicioPage> {
     );      
   }
   Widget _prueba(){
+    return Container();
+  }
+   Widget _prueba1(){
     return Container();
   }
   Widget _centroNotificaciones(){
