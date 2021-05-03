@@ -47,7 +47,7 @@ class _InicioPageState extends State<InicioPage> {
     );      
   }
   Widget _prueba(){
-    return Container(child: Text("hola"),);
+    return Container(child: Text("hola22222"),);
   }
    Widget _prueba1(){
     return Container();
