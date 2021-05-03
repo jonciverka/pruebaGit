@@ -52,6 +52,9 @@ class _InicioPageState extends State<InicioPage> {
    Widget _prueba1(){
     return Container();
   }
+   Widget _prueba12(){
+    return Container();
+  }
   Widget _centroNotificaciones(){
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 20,),
