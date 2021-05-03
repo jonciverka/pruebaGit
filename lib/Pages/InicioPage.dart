@@ -36,7 +36,6 @@ class _InicioPageState extends State<InicioPage> {
       body: SafeArea(
           child: Column(
           children: [
-            _header(),
             _centroNotificaciones(),
             _entrenamientos(),
             _otros(),
@@ -45,61 +44,7 @@ class _InicioPageState extends State<InicioPage> {
       )
     );      
   }
-  Widget _header(){
-    return Container(
-      padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          CircleAvatar(
-            radius: 25,
-            child: Icon(Icons.person),
-          ),
-          Text("Hola!!! "+globals.nombreusuario.toString()),
-          Row(
-            children: [
-              Icon(Icons.search),
-              SizedBox(
-                width: 10,
-              ),
-              GestureDetector(
-                child: Icon(Icons.logout),
-                onTap: () async {
 
-                  SharedPreferences prefs = await SharedPreferences.getInstance();
-                  await prefs.setString('access_token', "");
-                        /*await prefs.setString('idusuario', "0");
-                    await prefs.setString('nombreusuario', "");
-                    await prefs.setString('emailusuario', "");
-                    await prefs.setString('verificadousuario', "0");
-                    await prefs.setString('avatarurl', "");
-                    await prefs.setString('tipousuario', "0");
-                    await prefs.setString('iconousuario', "0");
-                    await prefs.setString('firebase_token', "");*/
-
-                    globals.idusuario =  0;
-                    globals.nombreusuario =  "";
-                    globals.emailusuario =  "";
-                    globals.verificadousuario =  0;
-                    globals.avatarurl =  "";
-                    globals.tipousuario =  0;
-                    globals.iconousuario =  0;
-                    globals.access_token = "";
-
-                    await FirebaseAuth.instance.signOut();
-
-                    Navigator.pushNamed(context, '/');
-
-
-
-                },
-              ),
-            ],
-          )
-        ],
-      ),
-    );
-  }
   Widget _centroNotificaciones(){
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 20,),
