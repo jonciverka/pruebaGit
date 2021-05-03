@@ -36,6 +36,7 @@ class _InicioPageState extends State<InicioPage> {
       body: SafeArea(
           child: Column(
           children: [
+            _prueba(),
             _centroNotificaciones(),
             _entrenamientos(),
             _otros(),
@@ -44,7 +45,9 @@ class _InicioPageState extends State<InicioPage> {
       )
     );      
   }
-
+  Widget _prueba(){
+    return Container();
+  }
   Widget _centroNotificaciones(){
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 20,),
