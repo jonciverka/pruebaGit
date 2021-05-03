@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "828708375504",
+    "project_id": "ninosdeahora-2cf1d",
+    "storage_bucket": "ninosdeahora-2cf1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828708375504:android:f89f77568390de3dca07d5",
+        "android_client_info": {
+          "package_name": "tv.ninosdeahora.ninosdeahora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828708375504-5hdmf5mv4ncvleemhq7voa63fe0lmc75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tv.ninosdeahora.ninosdeahora",
+            "certificate_hash": "6f7bfeca3af24d9c8048318dc28dfa73f21722b3"
+          }
+        },
+        {
+          "client_id": "828708375504-6uusuo1b3qlivbvrlhlv4454mjm7v86h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo_wtWZ1g6T8GDHUO278EiKewsJHFhqK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828708375504-6uusuo1b3qlivbvrlhlv4454mjm7v86h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>828708375504-eqik7rnad30pg3lgho8f8b034l99fe67.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.828708375504-eqik7rnad30pg3lgho8f8b034l99fe67</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>828708375504-5hdmf5mv4ncvleemhq7voa63fe0lmc75.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBNhXkAVji60G6L6Q2EW6twYP5Jdmm4xMM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>828708375504</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tv.ninosdeahora.ninosdeahora</string>
+	<key>PROJECT_ID</key>
+	<string>ninosdeahora-2cf1d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ninosdeahora-2cf1d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:828708375504:ios:872f349a48f62607ca07d5</string>
+</dict>
+</plist>
